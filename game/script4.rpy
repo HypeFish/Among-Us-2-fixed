@@ -7,3 +7,4 @@ label blake_reveal:
     "Whatever you do, don't say you’re solving a mystery"
     user "I’m solving a mystery"
     "Come on man"
+    
