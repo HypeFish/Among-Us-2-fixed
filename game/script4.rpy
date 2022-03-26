@@ -9,5 +9,11 @@ label blake_reveal:
     "Come on man"
     
 
-    main:
-        
+    menu:
+        "Where were you yesterday night?":
+            # show blake angry
+            B "Are you asking for my alibi?" 
+            B "Fuck"
+            B "Off"
+            "Your first uncooperative witness, you’re a real detective now."
+

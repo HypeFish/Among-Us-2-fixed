@@ -1,117 +1,23 @@
-Sat Mar 26 16:13:08 2022
+Sat Mar 26 17:08:24 2022
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.11s
+Bootstrap to the start of init.init took 0.23s
 Early init took 0.01s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata. took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.06s
+Loading script took 0.87s
+Loading save slot metadata. took 0.05s
 Loading persistent took 0.00s
 
-File "game/script3.rpy", line 116: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 119: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 142: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 145: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 177: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 217: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 231: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 236: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
+File "game/script4.rpy", line 12: expected statement.
+    main:
+        ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 0.87s
-
-Initializing gl renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.29'
-Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(1600, 900) drawable=(1600, 900)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Screen sizes: virtual=(1280, 720) physical=(958, 981) drawable=(958, 981)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Screen sizes: virtual=(1280, 720) physical=(1600, 900) drawable=(1600, 900)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Resetting cache.
-Bootstrap to the start of init.init took 93.08s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\luist\\AppData\\Roaming/RenPy/backups\\Among Us 2 fixed':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.60s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
+Interface start took 3.26s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -122,12 +28,4 @@ Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 497.29'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1600, 900) drawable=(1600, 900)
-Could not open 'cache/shaders.txt':
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s

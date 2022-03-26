@@ -2,37 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script3.rpy", line 116: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 119: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 142: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 145: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 177: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
-
-File "game/script3.rpy", line 217: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 231: end of line expected.
-    C "God it was so embarrassing".
-                                  ^
-
-File "game/script3.rpy", line 236: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What did you think about the plant?"
-                                         ^
+File "game/script4.rpy", line 12: expected statement.
+    main:
+        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Mar 26 16:13:08 2022
+Sat Mar 26 17:08:25 2022
