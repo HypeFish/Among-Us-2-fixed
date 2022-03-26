@@ -128,7 +128,7 @@ label potion1:
             # show curtis neutral
             C "Uh can't really say that I think about it, much at all. It’s a plant"
 
-    user "*what else can I ask?*"
+    user "*What else can I ask?*"
 
     if y == "1":
         menu:
