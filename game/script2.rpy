@@ -93,6 +93,7 @@ label hallway:
             #show milicent neutral
             M "Gladis at the front desk said bye to me as I left at 7?"
             M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
+            "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
             user "Can anyone verify your whereabouts?"
             M  "Yes, I was with my wife for the whole night. She can verify that I didn’t leave."
 
@@ -119,6 +120,7 @@ label hallway:
                 #show milicent neutral
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
+                "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
                 user "Can anyone verify your whereabouts?"
                 M  "Yes, I was with my wife for the whole night. She can verify that I didn’t leave."
 
@@ -173,6 +175,7 @@ label hallway:
                 #show milicent neutral
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
+                "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
                 user "Can anyone verify your whereabouts?"
                 M  "Yes, I was with my wife for the whole night. She can verify that I didn’t leave."
 
@@ -210,6 +213,7 @@ label hallway:
                 #show milicent neutral
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
+                "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
                 user "Can anyone verify your whereabouts?"
                 M  "Yes, I was with my wife for the whole night. She can verify that I didn’t leave."
 

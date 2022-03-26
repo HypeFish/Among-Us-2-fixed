@@ -8,3 +8,6 @@ label blake_reveal:
     user "I’m solving a mystery"
     "Come on man"
     
+
+    main:
+        

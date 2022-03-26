@@ -93,9 +93,10 @@ label potion1:
             C "I lost my re-"
             user "I still can't hear you."
             C "I LOST MY REED FOR MY CLARINET AND IT WAS REALLY EMBARRASSING TO GO TO BAND REHEARSAL WITHOUT IT AND IT'S EMBARRASSING NOW CAUSE I NEED TO FIND IT BEFORE THE CONCERT."
-            "is he gonna cry?"
-            "you scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
-            user "ah! Here it is."
+            "Is he gonna cry?"
+            C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
+            "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
+            user "Ah! Here it is."
             #show curtis neutral
             C "Oh thanks"
             "Hm so the reed was in here. He could have dropped it when he said he did, or in the heat of the crime OR when he saw I was in here he could have dropped it when he saw that I was in here investigating to cove his tracks."
@@ -107,8 +108,8 @@ label potion1:
 
         "What were you doing yesterday?":
             $ y = "2"
-            C "okay so I,"
-            C "okay so."
+            C "Okay so I,"
+            C "Okay so."
             C "I was at band practice and I didnt have my reed."
             C "I didn't have my reed and the concert is coming up."
             "Jesus can he get to the point."
@@ -133,8 +134,8 @@ label potion1:
         menu:
             "What were you doing yesterday?":
                 $ y = "12"
-                C "okay so I,"
-                C "okay so."
+                C "Okay so I,"
+                C "Okay so."
                 C "I was at band practice and I didnt have my reed."
                 C "I didn't have my reed and the concert is coming up."
                 "Jesus can he get to the point."
@@ -162,8 +163,9 @@ label potion1:
                 C "I lost my re-"
                 user "I still can't hear you."
                 C "I LOST MY REED FOR MY CLARINET AND IT WAS REALLY EMBARRASSING TO GO TO BAND REHEARSAL WITHOUT IT AND IT'S EMBARRASSING NOW CAUSE I NEED TO FIND IT BEFORE THE CONCERT."
-                "is he gonna cry?"
-                "you scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
+                "Is he gonna cry?"
+                C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
+                "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
                 user "ah! Here it is."
                 #show curtis neutral
                 C "Oh thanks"
@@ -252,6 +254,7 @@ label potion1:
                 user "I still can't hear you."
                 C "I LOST MY REED FOR MY CLARINET AND IT WAS REALLY EMBARRASSING TO GO TO BAND REHEARSAL WITHOUT IT AND IT'S EMBARRASSING NOW CAUSE I NEED TO FIND IT   BEFORE THE CONCERT."
                 "Is he gonna cry?"
+                C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
                 "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
                 user "Ah! Here it is."
                 #show curtis neutral
