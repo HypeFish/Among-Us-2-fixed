@@ -9,95 +9,73 @@ define D = Character("Dean")
 
 image blake angry:
     "./images/blake_angry.png"
-    zoom 0.5
 
 image blake embarrassed:
     "./images/blake_embrrassed.png"
-    zoom 0.5
 
 image blake neutral:
     "./images/blake_neutral.png"
-    zoom 0.5
 
 image blake question:
     "./images/blake_question.png"
-    zoom 0.5
 
 image blake sad:
     "./images/blake_sad.png"
-    zoom 0.5
 
 image blake surprised:
     "./images/blake_surprised.png"
-    zoom 0.5
 
 image curtis embarrassed:
     "./images/curtis_embarrassed.png"
-    zoom 0.5
 
 image curtis neutral:
     "./images/curtis_neutral.png"
-    zoom 0.5
 
 image curtis question:
-    "./images/curtis_neutral.png"
-    zoom 0.5    
+    "./images/curtis_neutral.png"  
 
 image curtis surprised:
     "./images/curtis_surprised.png"
-    zoom 0.5
 
 image dean:
     "./images/dean moment.png"
-    zoom 0.5
 
 image egg:
     "./images/egg.png"
-    zoom 0.5
 
 image lavendar angry:
     "./images/lavender_angry.png"
-    zoom 0.5
 
 image lavendar happy:
     "./images/lavender_happy.png"
-    zoom 0.5
 
 image lavender neutral:
     "./images/lavender_neutral.png"
-    zoom 0.5
 
 image lavender question:
     "./images/lavender_question.png"
-    zoom 0.5
 
 image lavender surprised:
     "./images/lavender_question.png"
-    zoom 0.5
 
 image milicent happy:
     "./images/milicent_happy.png"
-    zoom 0.5
 
 image milicent embarrassed:
     "./images/milicent_embarrassed.png"
-    zoom 0.5
 
 image milicent neutral:
     "./images/milicent_neutral.png"
-    zoom 0.5
 
 image milicent question:
     "./images/milicent_questions.png"
-    zoom 0.5
+
 
 image milicent sad:
     "./images/milicent_sad.png"
-    zoom 0.5
 
 image milicent surprised:
     "./images/milicent.surprised.png"
-    zoom 0.5
 
 image potion empty:
     "./images/potion empty.png"
@@ -135,13 +113,13 @@ image intro 1:
     "./images/intro_1.png"
 
 image intro 2:
-    "./images/intro_2.png"
+    "./images/intro_2.jpg"
 
 image intro 3:
     "./images/intro_3.png"
 
 image intro 4:
-    "./images/intro_4.png"
+    "./images/intro_4.jpg"
 
 image intro 5:
     "./images/intro_5.png"
