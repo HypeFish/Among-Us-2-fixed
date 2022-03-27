@@ -4,7 +4,7 @@ label teacher_end:
 
     scene dean office with dissolve
     
-    show dean at center wit with dissolve
+    show dean at center with dissolve
 
     user "Dean Vance- Dean-" 
 

@@ -53,10 +53,10 @@ image dean:
 image egg:
     "./images/egg.png"
 
-image lavendar angry:
+image lavender angry:
     "./images/lavender_angry.png"
 
-image lavendar happy:
+image lavender happy:
     "./images/lavender_happy.png"
 
 image lavender neutral:

@@ -4,6 +4,8 @@ label hallway:
 
     scene school hallway with dissolve
 
+    play music audio.woven
+
     "The school bell rings once signaling to everyone that there’s 30 minutes before the first period."
 
     "You grab your bag and sling it over your shoulder."
@@ -13,7 +15,7 @@ label hallway:
 
     "You make your way to the classroom passing familiar faces."
 
-    show lavendar happy with dissolve
+    show lavender happy with dissolve
 
     "You’ve been best friends with Lavender ever since you were in Mr. Clay’s 4th grade class."
 

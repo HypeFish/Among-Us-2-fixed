@@ -2,13 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 217: end of line expected.
-    scene intro 1 with dissolve delay
-                                ^
-
-File "game/script.rpy", line 220: end of line expected.
-    scene intro 2 with dissolve with delay
-                                ^
+File "game/options.rpy", line 32: EOL while scanning string literal
+(Perhaps you left out a " at the end of the first line.)
+    _p("Made by Luis Toral, McKenna Quam, Natalie Ward, Salma Alawi""
+                                                                     ^
+    
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Mar 27 16:27:35 2022
+Sun Mar 27 17:55:14 2022

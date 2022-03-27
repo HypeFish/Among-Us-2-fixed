@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Among Us 2 fixed")
+define config.name = _("The Stolen Satis Curae")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,14 +23,13 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = ""
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-""")
+define gui.about = _p("Made by Luis Toral, McKenna Quam, Natalie Ward, Salma Alawi")
 
 
 ## A short name for the game used for executables and directories in the built
@@ -62,8 +61,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
-
+define config.main_menu_music = "./audio/Slowspace.mp3"
 
 ## Transitions #################################################################
 ##
