@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script5.rpy", line 106: expected menuitem
-    if x == "1":
-    ^
+File "game/screens.rpy", line 360: expecting name after dot.
+    add gui./images/title_1.png
+            ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Mar 26 21:54:58 2022
+Sun Mar 27 00:03:35 2022
