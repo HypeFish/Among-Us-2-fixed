@@ -1,5 +1,6 @@
 label potion1:
-    # play audio.bell (hopefully)
+
+    play sound audio.bell
 
     M "Quick [user], drink the potion!"
 
@@ -9,7 +10,7 @@ label potion1:
 
     "You're creating to wonder if Milicent has given you cough syrup when the room starts to get dizzy."
 
-    scene hallway
+    scene hallway half
 
     "The school bell rings once signaling to everyone that there’s 30 minutes before the first period. You grab your bag and sling it over your shoulder."
 
@@ -23,35 +24,35 @@ label potion1:
 
     "You quickly turn around retracing your steps."
 
-    show lavender happy
+    show lavender happy with dissolve
 
     "There's Lavender."
 
-    hide lavender happy
+    hide lavender happy with dissolve
 
-    show blake angry
+    show blake angry with dissolve
 
     "There's Blake."
 
-    #hide blake angry
+    hide blake angry with dissolve
 
-    #show curtis neutral
+    show curtis neutral with dissolve
 
     "There's Curtis."
 
-    #hide curtis neutral
+    hide curtis neutral with dissolve
 
     "And there's the botany classroom. You hurry inside."
 
     user "Milicent?"
 
-    #show milicent surprised
+    show milicent surprised with dissolve
 
     M "[user]!"
 
     "She sees the bottle in your hands"
 
-    #show milicent happy
+    show milicent happy with dissolve
 
     M " I see, you’ve agreed to solve the mystery for me."
 
@@ -61,21 +62,21 @@ label potion1:
 
     "Wow she really does believe in you. She turns and leaves."
 
-    #hide milicent happy
+    hide milicent happy with dissolve
 
     "You continue to scan the room. You have already gotten the plants and the walls and the windows."
 
     "Your eyes then move the floor, you get down on your hands and knees to take a better look when."
 
-    "*click*" #sound effect
+    "*click*" 
 
     "You hear the door open. You peak around the desh your huddled under to see..."
 
-    #show curtis embarrassed
+    show curtis embarrassed with dissolve
 
     " Curtis, who is even more red than normal. He shuffles around, looking under the desks until he comes to your desk"
 
-    #show curtis surprised
+    show curtis surprised with dissolve
 
     C "AH!"
 
@@ -97,11 +98,11 @@ label potion1:
             C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
             "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
             user "Ah! Here it is."
-            #show curtis neutral
+            show curtis neutral with dissolve
             C "Oh thanks"
             "Hm so the reed was in here. He could have dropped it when he said he did, or in the heat of the crime OR when he saw I was in here he could have dropped it when he saw that I was in here investigating to cove his tracks."
             "Oh Oh Oh the game is a foot Mr. Curtis, the game is a foot."
-            #show curtis question
+            show curtis question with dissolve
             C "Are you okay? You look a little dazed"
             user "Oh I’m okay"
             "The question dear Curtis is are you guilty!!"
@@ -119,13 +120,13 @@ label potion1:
 
         "What did you think about the plant?":
             $ y = "3"
-            #hide curtis questioning
+            hide curtis questioning with dissolve
             C "Uh what plant."
             "You gesture with your head to where the satis curae should be"
-            # show curtis surprise
+            show curtis surprise with dissolve
             C "Oh! You mean the big plant with the     petals and the leaves and the…"
             user "Yeah the one that is usually right there"
-            # show curtis neutral
+            show curtis neutral with dissolve
             C "Uh can't really say that I think about it, much at all. It’s a plant"
 
     user "*What else can I ask?*"
@@ -145,13 +146,13 @@ label potion1:
 
             "What did you think about the plant?":
                 $ y = "13"
-                #hide curtis questioning
+                hide curtis questioning with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                # show curtis surprise
+                show curtis surprise with dissolve
                 C "Oh! You mean the big plant with the     petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
-                # show curtis neutral
+                show curtis neutral with dissolve
                 C "Uh can't really say that I think about it, much at all. It’s a plant"
 
     if y == "2":
@@ -167,24 +168,24 @@ label potion1:
                 C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
                 "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
                 user "ah! Here it is."
-                #show curtis neutral
+                show curtis neutral with dissolve
                 C "Oh thanks"
                 "Hm so the reed was in here. He could have dropped it when he said he did, or in the heat of the crime OR when he saw I was in here he could have dropped it when he saw that I was in here investigating to cove his tracks."
                 "Oh Oh Oh the game is a foot Mr. Curtis, the game is a foot."
-                #show curtis question
+                show curtis question with dissolve
                 C "Are you okay? You look a little dazed"
                 user "Oh I’m okay"
                 "The question dear Curtis is are you guilty!!"
 
             "What did you think about the plant?":
                 $ y = "23"
-                #hide curtis questioning
+                hide curtis questioning with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                # show curtis surprise
+                show curtis surprise with dissolve
                 C "Oh! You mean the big plant with the     petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
-                # show curtis neutral
+                show curtis neutral with dissolve
                 C "Uh can't really say that I think about it, much at all. It’s a plant"
 
     if y == "3":
@@ -199,11 +200,11 @@ label potion1:
                 "Is he gonna cry?"
                 "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
                 user "Ah! Here it is."
-                #show curtis neutral
+                show curtis neutral with dissolve
                 C "Oh thanks"
                 "Hm so the reed was in here. He could have dropped it when he said he did, or in the heat of the crime OR when he saw I was in here he could have dropped it when he saw that I was in here investigating to cove his tracks."
                 "Oh Oh Oh the game is a foot Mr. Curtis, the game is a foot."
-                #show curtis question
+                show curtis question with dissolve
                 C "Are you okay? You look a little dazed"
                 user "Oh I’m okay"
                 "The question dear Curtis is are you guilty!!"
@@ -236,13 +237,13 @@ label potion1:
     if y == "12":
         menu:
             "What did you think about the plant?":
-                #hide curtis questioning
+                show curtis questioning with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                # show curtis surprise
+                show curtis surprise with dissolve
                 C "Oh! You mean the big plant with the     petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
-                # show curtis neutral
+                show curtis neutral with dissolve
                 C "Uh can't really say that I think about it, much at all. It’s a plant"
 
     if y == "23":
@@ -257,20 +258,22 @@ label potion1:
                 C "Practice ran till 8 *sniff* I pretended to play the clarinet the whole time. It was awful"
                 "You scan the floor, you see a small wooden rectangle under one of the desks that Curtis had passed before."
                 user "Ah! Here it is."
-                #show curtis neutral
+                show curtis neutral with dissolve
                 C "Oh thanks"
                 "Hm so the reed was in here. He could have dropped it when he said he did, or in the heat of the crime OR when he saw I was in here he could have dropped it when he saw that I was in here investigating to cove his tracks."
                 "Oh Oh Oh the game is a foot Mr. Curtis, the game is a foot."
-                #show curtis question
+                show curtis question with dissolve
                 C "Are you okay? You look a little dazed"
                 user "Oh I’m okay"
                 "The question dear Curtis is are you guilty!!"
 
-    #show curtis neutral
+    show curtis neutral with dissolve
     C "uh, well, thank you for finding my reed…I gotta…I gotta go to class, we have a quiz in divination…"
 
     C "I’ll see you… See you later"
-    #hide curtis neutral
+
+    hide curtis neutral with dissolve
+
     "Hmmmm. Curtis was in the building yesterday night, but he doesn’t seem to care about the plant. Like at all. Means without motive, hmmmmmm."
 
     "You go back to scanning the ground, a small glint of silver catches you eye. You bend down and grab a silver chain on the ground"

@@ -1,6 +1,6 @@
 label blake_reveal:
         
-    # show blake neutral
+    show blake neutral with dissolve
 
     B "Dude what are you doing here?"
 
@@ -12,7 +12,7 @@ label blake_reveal:
     menu:
         "Where were you yesterday night?":
             $ x = "1"
-            # show blake angry
+            show blake angry with dissolve
             B "Are you asking for my alibi?" 
             B "Fuck"
             B "Off"
@@ -20,7 +20,7 @@ label blake_reveal:
 
         "What did you think of the plant?":
             $ x = "2"
-            #show blake angry
+            show blake angry with dissolve
             B "I don’t care about the stupid satus cureus"
             user "You mean the satis curae?"
             B "Whatever! What am I gonna do with an uber deadly plant? Kill someone?"
@@ -28,7 +28,7 @@ label blake_reveal:
 
         "Do you know who might want to steal the plant":
             $ x = "3"
-            #show blake angry
+            show blake angry with dissolve
             B "I don't know! Why don't you ask your little friend, what’s her name? Rose?"
             user "Lavender?"
             B "Yeah whatever, she's the president of the alchemy club, she’d know what to do with the scatu cares."
@@ -41,7 +41,7 @@ label blake_reveal:
         menu:
             "What did you think of the plant?":
                 $ x = "12"
-                #show blake angry
+                show blake angry with dissolve
                 B "I don’t care about the stupid satus cureus"
                 user "You mean the satis curae?"
                 B "Whatever! What am I gonna do with an uber deadly plant? Kill someone?"
@@ -49,7 +49,7 @@ label blake_reveal:
 
             "Do you know who might want to steal the plant":
                 $ x = "13"
-                #show blake angry
+                show blake angry with dissolve
                 B "I don't know! Why don't you ask your little friend, what’s her name? Rose?"
                 user "Lavender?"
                 B "Yeah whatever, she's the president of the alchemy club, she’d know what to do with the scatu cares."
@@ -60,7 +60,7 @@ label blake_reveal:
         menu:
             "Where were you yesterday night?":
                 $ x = "12"
-                # show blake angry
+                show blake angry with dissolve
                 B "Are you asking for my alibi?" 
                 B "Fuck"
                 B "Off"
@@ -68,7 +68,7 @@ label blake_reveal:
 
             "Do you know who might want to steal the plant":
                 $ x = "23"
-                #show blake angry
+                show blake angry with dissolve
                 B "I don't know! Why don't you ask your little friend, what’s her name? Rose?"
                 user "Lavender?"
                 B "Yeah whatever, she's the president of the alchemy club, she’d know what to do with the scatu cares."
@@ -79,7 +79,7 @@ label blake_reveal:
         menu:
             "What did you think of the plant?":
                 $ x = "23"
-                #show blake angry
+                show blake angry with dissolve
                 B "I don’t care about the stupid satus cureus"
                 user "You mean the satis curae?"
                 B "Whatever! What am I gonna do with an uber deadly plant? Kill someone?"
@@ -87,7 +87,7 @@ label blake_reveal:
 
             "Where were you yesterday night?":
                 $ x = "13"
-                # show blake angry
+                show blake angry with dissolve
                 B "Are you asking for my alibi?" 
                 B "Fuck"
                 B "Off"
@@ -98,7 +98,7 @@ label blake_reveal:
     if x == "12":
         menu:
             "Where were you yesterday night?":
-                # show blake angry
+                show blake angry with dissolve
                 B "Are you asking for my alibi?" 
                 B "Fuck"
                 B "Off"
@@ -107,7 +107,7 @@ label blake_reveal:
     if x == "13":
         menu:
             "What did you think of the plant?":
-                #show blake angry
+                show blake angry with dissolve
                 B "I don’t care about the stupid satus cureus"
                 user "You mean the satis curae?"
                 B "Whatever! What am I gonna do with an uber deadly plant? Kill someone?"
@@ -116,7 +116,7 @@ label blake_reveal:
     if x == "23":
         menu:
             "Do you know who might want to steal the plant":
-                #show blake angry
+                show blake angry with dissolve
                 B "I don't know! Why don't you ask your little friend, what’s her name? Rose?"
                 user "Lavender?"
                 B "Yeah whatever, she's the president of the alchemy club, she’d know what to do with the scatu cares."

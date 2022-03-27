@@ -1,8 +1,10 @@
 label teacher_end:
 
     "You race down the the halls to Dean Vance’s Office"
+
+    scene dean office with dissolve
     
-    show dean at center
+    show dean at center wit with dissolve
 
     user "Dean Vance- Dean-" 
 
@@ -11,7 +13,7 @@ label teacher_end:
     D "What do you need [user]?"
 
     user "Dean, the satis curae has been stolen and I know who did it!"
-    
+
 
     #***NOT CYCLIC***
 
@@ -25,25 +27,26 @@ label teacher_end:
             user "…To be honest sir, I’m not sure. But he is the most likely according to my investigation."
             D "Alright bring him in."
 
-            show curtis neutral at left
-            show dean at right
+            show curtis neutral at left with dissolve
+            show dean at right with dissolve
 
             D "Curtis do you know why you are here"
             
-            show curtis surprised
+            show curtis surprised with dissolve
 
             C "..."
 
-            show curtis embarrassed
+            show curtis embarrassed with dissolve
 
             C "..."
+
             C "I SWEAR I’ll never forget my reed again to practice, it was just one time and i still practiced the fingerings and look! I found it today so I’m ready-"
 
             D "Curtis"
 
             D "Did you steal the satis curae from Professor Milicent’s classroom?"
 
-            show curtis question
+            show curtis question with dissolve
 
             C "No? Why would I do that?"
 
@@ -51,7 +54,7 @@ label teacher_end:
 
             D "Curtis, is it okay if we were to send Professor Milicent home with you today? So she could check your room for it."
 
-            show curtis neutral
+            show curtis neutral with dissolve
 
             C "Yes, of course. You won’t find it though."
 
@@ -61,9 +64,9 @@ label teacher_end:
 
             D "You are dismissed"
 
-            hide curtis neutral
+            hide curtis neutral with dissolve
 
-            show dean at center
+            show dean at center with dissolve
 
             user "Is Professor Milicent going to lose her job?"
 
@@ -71,9 +74,9 @@ label teacher_end:
             
             D "it is possible that you will too [user]"
 
-            hide dean
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway with dissolve
 
             user "*So this is how it feels, to get the wrong guy.*"
 
@@ -81,12 +84,9 @@ label teacher_end:
 
             "If only you could turn back time once again"
 
-            scene bad end 
+            scene bad end with dissolve
             
-            ""
-            scene credits 
-
-            ""
+            scene credits with dissolve
 
             return
     
@@ -101,9 +101,9 @@ label teacher_end:
 
             D "Okay send her in."
 
-            show blake neutral at left 
+            show blake neutral at left with dissolve
 
-            show dean at right
+            show dean at right with dissolve
 
             D "Do you know why you are here?"
 
@@ -117,13 +117,13 @@ label teacher_end:
 
             D "Did you steal the satis curae from Professor Milicent’s classroom?"
 
-            show blake embarrassed at left
+            show blake embarrassed at left with disolve
 
             B "No, I did not."
 
             D "Then you wouldn’t mind if Professor Milicent came home with you today to check if the plant was in your room"
             
-            show blake angry at left
+            show blake angry at left with dissolve
 
             B "YES I would mind! That’s a fucking invasion of privacy!"
 
@@ -133,9 +133,9 @@ label teacher_end:
 
             B "Screw this I’m going back to class."
 
-            hide blake angry
+            hide blake angry with dissolve 
 
-            show dean at center
+            show dean at center with dissolve
 
             D "We’ll call her parents to see if the plant is there."
 
@@ -147,9 +147,9 @@ label teacher_end:
 
             user "You're welcome Dean Vance!"
 
-            hide dean
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway dissolve 
 
             "You feel a sense of pride in your chest."
 
@@ -162,10 +162,9 @@ label teacher_end:
             "If only you could turn back time once again"
 
 
-            scene neutral end
+            scene neutral end with Dissolve(3.0)
 
-            ""
-            scene credits
+            scene credits with dissolve(5.0)
 
             return
 
@@ -185,18 +184,19 @@ label teacher_end:
 
             D "Alright, send her in"
 
-            show lavender neutral at left 
-            show dean at right
+            show lavender neutral at left with dissolve
+
+            show dean at right with dissolve
 
             D "Do you know why you are here?"
 
-            show lavender angry at left
+            show lavender angry at left with dissolve
 
             "You feel Lavender staring daggers into your back"
 
             L "I do, Dean Vance, I did not steal that plant."
 
-            show lavender neutral at left
+            show lavender neutral at left with dissolve
 
             L "I know what [user] has told you and I can prove that I was home at the time that it happened."
 
@@ -216,8 +216,9 @@ label teacher_end:
 
             "You feel a deep pit in your stomach."
 
-            hide lavender away at left
-            show dean at center
+            hide lavender away at left with dissolve
+
+            show dean at center with dissolve
 
             user "Is Professor Milicent going to lose her job."
 
@@ -225,9 +226,9 @@ label teacher_end:
 
             D "It is possible that you will too [user]"
 
-            hide dean 
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway with dissolve
 
             "So this is how it feels, to get the wrong guy."
 
@@ -237,11 +238,9 @@ label teacher_end:
 
             "If only you could turn back time once again."
 
-            scene bad end 
+            scene bad end with Dissolve(3.0)
 
-            ""
-            scene credits
+            scene credits with Dissolve(5.0)
 
-            ""
 
             return

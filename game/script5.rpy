@@ -9,17 +9,17 @@ label potion2:
 
     "You walk down the hall towards Lavender's locker. (L also could be locker)"
 
-    #show lavender neutral
+    show lavender neutral with dissolve
 
     user "Hi Lavender!"
 
-    #show lavender happy 
+    show lavender happy with dissolve
 
     L "Hey [user], Going to visit-"
 
     user "The satis curae has been stolen..."
 
-    #show lavender surprise
+    show lavender surprise with dissolve
 
     L "The satis curae! That is extremely deadly in the wrong hands it could-"
 
@@ -29,17 +29,17 @@ label potion2:
 
     "You bring the necklace out of your pocket and show it to her."
 
-    #show lavender question
+    show lavender question with dissolve
 
     L "You don't think, you don't think I did this do you?"
 
-    #show lavendar angry
+    show lavendar angry with dissolve
 
     L "I wouldn't do this! [user], you know I wouldn't do this"
 
     user "Can i please just ask a couple of questions"
 
-    #show lavender neutral
+    show lavender neutral with dissolve
 
     L "... sure"
 
@@ -78,7 +78,7 @@ label potion2:
 
             user "you know that telling me this-"
 
-            #show lavender angry
+            show lavender angry with dissolve
 
             L "gives me motive? Yeah I know, I want you to catch whoever did this because I didn't! So I’m trying to be helpful [user]!"
 
@@ -88,18 +88,18 @@ label potion2:
 
             "Lavender can pour sarcasm on sentences like one pours syrup on pancakes"
 
-            #show lavender neutral
+            show lavender neutral with dissolve
 
         "Is this your necklace?":
             $ x = "3"
 
-            #show lavender angry    
+            show lavender angry with dissolve
             
             L "NO! Thats not mine!"
             L "I don't wear silver jewelry!"
             L "And i think monogrammed jewelry is tacky"
 
-            #show lavender neutral
+            show lavender neutral with dissolve
 
         user "*What can I ask?*"
 
@@ -125,7 +125,7 @@ label potion2:
 
                 user "you know that telling me this-"
 
-                #show lavender angry
+                show lavender angry with dissolve
 
                 L "gives me motive? Yeah I know, I want you to catch whoever did this because I didn't! So I’m trying to be helpful [user]!"
 
@@ -135,18 +135,18 @@ label potion2:
 
                 "Lavender can pour sarcasm on sentences like one pours syrup on pancakes"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
 
             "Is this your necklace?":
                 $ x = "13"
 
-                #show lavender angry    
+                show lavender angry with dissolve
                     
                 L "NO! Thats not mine!"
                 L "I don't wear silver jewelry!"
                 L "And i think monogrammed jewelry is tacky"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
         
     if x == "2":
         menu:
@@ -167,13 +167,13 @@ label potion2:
             "Is this your necklace?":
                 $ x = "23"
 
-                #show lavender angry    
+                show lavender angry with dissolve    
                     
                 L "NO! Thats not mine!"
                 L "I don't wear silver jewelry!"
                 L "And i think monogrammed jewelry is tacky"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
 
     if x == "3":
         menu:
@@ -211,7 +211,7 @@ label potion2:
 
                 user "you know that telling me this-"
 
-                #show lavender angry
+                show lavender angry with dissolve
 
                 L "gives me motive? Yeah I know, I want you to catch whoever did this because I didn't! So I’m trying to be helpful [user]!"
 
@@ -221,7 +221,7 @@ label potion2:
 
                 "Lavender can pour sarcasm on sentences like one pours syrup on pancakes"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
 
     user "*What else can I ask?*"
 
@@ -229,13 +229,13 @@ label potion2:
         menu:
             "Is this your necklace?":
 
-                #show lavender angry    
+                show lavender angry with dissolve  
                         
                 L "NO! Thats not mine!"
                 L "I don't wear silver jewelry!"
                 L "And i think monogrammed jewelry is tacky"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
 
     if x == "13":
         menu:
@@ -258,7 +258,7 @@ label potion2:
 
                 user "you know that telling me this-"
 
-                #show lavender angry
+                show lavender angry with dissolve
 
                 L "gives me motive? Yeah I know, I want you to catch whoever did this because I didn't! So I’m trying to be helpful [user]!"
 
@@ -268,7 +268,7 @@ label potion2:
 
                 "Lavender can pour sarcasm on sentences like one pours syrup on pancakes"
 
-                #show lavender neutral
+                show lavender neutral with dissolve
 
     if x == "23":
         menu:
@@ -293,15 +293,17 @@ label potion2:
 
     L "Yeah, I will"
 
-    #show lavender neutral at left
+    show lavender neutral at left with dissolve
 
-    #show curtis embarrassed at right
+    show curtis embarrassed at right with dissolve
+
+    show reed at center with dissolve
 
     "Curtis hurriedly runs past you, clutching something in his left hand. So he really did leave the reed in the botany classroom."
 
-    #hide curtis embarrassed
+    hide curtis embarrassed with dissolve
 
-    #hide lavender neutral
+    hide lavender neutral with dissolve
 
     "You look at Lavender. This is worse than the time you spilled cranberry sauce on her bed…you don’t like seeing Lavender mad like this, especially not at you."
 

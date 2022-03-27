@@ -2,8 +2,9 @@ label curtis_final:
 
     "You go in the direction in which you saw Curtis running. You go down the hallway till you find yourself outside the band room."
 
-    #show curtis neutral at left
-    #show egg neutral at right
+    show curtis neutral at left with dissolve
+
+    show egg neutral at right with dissolve
 
     E "Did you finally find your reed?"
 
@@ -13,7 +14,8 @@ label curtis_final:
 
     C "Thanks, it means a lot to me actually"
 
-    #play audio.bell
+    play sound audio.bell
+    
     "the bell rings" 
 
     "You're out of time, you have to go and tell the dean now who you think did it."

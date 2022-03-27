@@ -23,16 +23,17 @@ label blake_end:
 
             D "Alright, bring him in."
 
-            show curtis neutral at left
-            show dean at right
+            show curtis neutral at left with dissolve
+
+            show dean at right with dissolve
 
             D "Curtis do you know why you are here"
             
-            show curtis surprised
+            show curtis surprised with dissolve
 
             C "..."
 
-            show curtis embarrassed
+            show curtis embarrassed with dissolve
 
             C "..."
 
@@ -42,7 +43,7 @@ label blake_end:
 
             D "Did you steal the satis curae from Professor Milicent’s classroom?"
 
-            show curtis question
+            show curtis question with dissolve
 
             C "No? Why would I do that?"
 
@@ -50,7 +51,7 @@ label blake_end:
 
             D "Curtis, is it okay if we were to send Professor Milicent home with you today? So she could check your room for it."
 
-            show curtis neutral
+            show curtis neutral with dissolve
 
             C "Yes, of course. You won’t find it though."
 
@@ -60,9 +61,9 @@ label blake_end:
 
             D "You are dismissed"
 
-            hide curtis neutral
+            hide curtis neutral with dissolve
 
-            show dean at center
+            show dean at center with dissolve
 
             user "Is Professor Milicent going to lose her job?"
 
@@ -70,9 +71,9 @@ label blake_end:
             
             D "it is possible that you will too [user]"
 
-            hide dean
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway with dissolve
 
             "You know Curtis didn't do it."
 
@@ -87,12 +88,9 @@ label blake_end:
             "If only you could turn back time again"
 
 
-            scene bad end 
+            scene bad end with Dissolve(3.0)
             
-            ""
-            scene credits 
-
-            ""
+            scene credits with Dissolve(5.0)
 
             return
     
@@ -107,8 +105,8 @@ label blake_end:
 
             D "Okay, send her in."
 
-            show blake neutral at left
-            show dean at right
+            show blake neutral at left with dissolve
+            show dean at right with dissolve
 
             D "Do you know why you are here?"
 
@@ -116,7 +114,7 @@ label blake_end:
 
             B "…"
 
-            show blake sad at left
+            show blake sad at left with dissolve
 
             B "I trusted you!"
 
@@ -130,10 +128,10 @@ label blake_end:
 
             D "[user], thank you for your assistance in solving this case. Please make your way to your first period."
 
-            hide blake sad 
-            hide dean 
+            hide blake sad with dissolve
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway with dissolve
 
             "You did it!"
 
@@ -149,10 +147,9 @@ label blake_end:
 
 
 
-            scene neutral end
+            scene neutral end with Dissolve(3.0)
 
-            ""
-            scene credits
+            scene credits with dissolve(5.0)
 
             return
 
@@ -172,18 +169,18 @@ label blake_end:
 
             D "Alright, send her in"
 
-            show lavender neutral at left 
-            show dean at right
+            show lavender neutral at left with dissolve
+            show dean at right with dissolve
 
             D "Do you know why you are here?"
 
-            show lavender angry at left
+            show lavender angry at left with dissolve
 
             "You feel Lavender staring daggers into your back"
 
             L "I do, Dean Vance, I did not steal that plant."
 
-            show lavender neutral at left
+            show lavender neutral at left with dissolve
 
             L "I know what [user] has told you and I can prove that I was home at the time that it happened."
 
@@ -203,8 +200,8 @@ label blake_end:
 
             "You feel a deep pit in your stomach."
 
-            hide lavender away at left
-            show dean at center
+            hide lavender away at left with dissolve
+            show dean at center with dissolve
 
             user "Is Professor Milicent going to lose her job."
 
@@ -212,9 +209,9 @@ label blake_end:
 
             D "It is possible that you will too [user]"
 
-            hide dean 
+            hide dean with dissolve
 
-            scene school hallway
+            scene school hallway with dissolve
 
             "So this is how it feels, to get the wrong guy."
 
@@ -224,11 +221,9 @@ label blake_end:
 
             "If only you could turn back time once again."
 
-            scene bad end 
+            scene bad end with Dissolve(3.0)
 
-            ""
-            scene credits
+            scene credits with Dissolve(5.0)
 
-            ""
 
             return

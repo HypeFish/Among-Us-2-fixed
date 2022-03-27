@@ -102,10 +102,7 @@ image reed:
     "./images/reed.png"
 
 image text box1:
-    "./images/text box cropped.png"
-
-image text box2:
-    "./images/text box.png"
+    "./images/text box new.png"
 
 image school hallway:
     "./images/school hallway.png"
@@ -203,7 +200,6 @@ image end 9:
 image end 10:
     "./images/end_10.png"
 
-
 define audio.general = "./audio/e_woven.m4a"
 
 label start:
@@ -214,36 +210,29 @@ label start:
     if not user:
         $ user = "Julia"
 
-    scene intro 1 with dissolve
+    play music audio.crime
 
-    ""
+    scene intro 1 with Dissolve(2.0)
 
-    scene intro 2 with dissolve
+    scene intro 2 with Dissolve(2.0)
 
-    ""
 
-    scene intro 3 with dissolve
+    scene intro 3 with Dissolve(2.0)
 
-    ""
 
-    scene intro 4 with dissolve
+    scene intro 4 with Dissolve(2.0)
 
-    ""
 
-    scene intro 5 with dissolve
+    scene intro 5 with Dissolve(2.0)
 
-    ""
 
-    scene intro 6 with dissolve
+    scene intro 6 with Dissolve(2.0)
 
-    ""
 
-    scene intro 7 with dissolve
+    scene intro 7 with Dissolve(2.0)
 
-    ""
 
-    scene intro 8 with dissolve
+    scene intro 8 with Dissolve(2.0)
 
-    ""
 
     jump hallway

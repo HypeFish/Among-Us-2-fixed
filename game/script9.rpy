@@ -1,25 +1,27 @@
 label blake_final:
     "You make you way down the hallway swiftly to the botany classroom, you saw Curtis leave with his reed which means that Blake is going to come in soon."
 
-    #show milicent happy
+    show milicent happy with dissolve
 
     M "I see, you've agreed to solv-"
 
     user "Yes, but i'm out of time and i need you to leave the classroom."
 
-    #show milicent questioning
+    show milicent questioning with dissolve
 
     M "Why? Wha-"
 
     user "Please just trust me"
-    #show milicent neutral
+
+    show milicent neutral with disolve
+
     M "I do"
 
-    # show milicent away
+    show milicent away with dissolve
 
     "As Milicent leaves you take the locket out of your pocket, you aren’t sure what it means or even if it’s involved with this cas-"
 
-    #show blake angry
+    show blake angry with dissolve
 
     B "Hey where did you get that? That’s mine!!"
 
@@ -31,13 +33,13 @@ label blake_final:
 
     "There is a soft blue glow coming from her hands. She opens her hands to reveal that the necklace is not just a necklace but a locket."
 
-    #show blake neutral
+    show blake neutral with dissolve
 
     "You sees her expression soften as she looks at the photo, it’s of a girl, she looks a lot like Blake, maybe 10 years old."
 
     user "Blake who is that?"
 
-    #show blake sad
+    show blake sad with dissolve
 
     B "She's my sister, Lillian."
 
@@ -59,11 +61,11 @@ label blake_final:
 
     user "She’ll die if you make that potion wrong!"
 
-    #show blake angry
+    show blake angry with dissolve
 
     B "She’ll die if I do nothing!"
 
-    #show blake neutral
+    show blake neutral with dissolve
 
     B "I know what I’m doing [user], I’ve been very careful, I have the plant at the correct moisture and sunlight level."
     
@@ -71,13 +73,13 @@ label blake_final:
 
     B "I won’t be able if you turn me into the dean."
 
-    #play audio.bell
+    play sound audio.bell
 
     "The first period bell rings"
 
     user "Blake I have to go"
 
-    #show blake sad
+    show blake sad with dissolve
 
     B "Please, please don’t turn me in." 
 

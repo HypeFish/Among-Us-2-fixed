@@ -1,10 +1,10 @@
 label teacher_final:
 
-    #show milicent neutral
+    show milicent neutral with dissolve
 
     "You make your way to the botany classroom. You know that Milicent will be there, you didn’t ask her to leave the classroom this time around."
 
-    #show milicent happy
+    show milicent happy with dissolve
 
     M " I see, you’ve agreed to solve the mystery for me."
 
@@ -12,7 +12,7 @@ label teacher_final:
 
     M "Go then!"
 
-    #show milicent neutral
+    show milicent neutral with dissolve
 
     menu:
         "Do you think Curtis could have done it?":
@@ -30,7 +30,7 @@ label teacher_final:
             M "Out of all the students here she is the most likely to know how to use the plant to its fullest capacities. But, she’s such a good kid."
 
             M "I surely hope that she would not have done this. But yes, I think she has a motive."
-            
+
         "Do you think Blake could have done it":
             $ x = "blake"
 
@@ -42,7 +42,8 @@ label teacher_final:
 
             M "I really hope that it was not her. She really seemed to be turning over a new leaf. It's possible she would have stolen it due to her poor grades in the beginning of this semester."
 
-    #play audio.bell
+    play sound audio.bell
+    
     "The school bell rings" 
 
     user "Thank you Milicent, I know who took the plant."
