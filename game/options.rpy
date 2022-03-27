@@ -36,7 +36,7 @@ define gui.about = _p("Made by Luis Toral, McKenna Quam, Natalie Ward, Salma Ala
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Botanic Mystery"
+define build.name = "Botanic_Mystery"
 
 
 ## Sounds and music ############################################################
@@ -204,4 +204,4 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-# define build.itch_project = "renpytom/test-project"
+define build.itch_project = "user-name/Botanic-Mystery"
