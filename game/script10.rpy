@@ -5,9 +5,13 @@ label teacher_end:
     show dean at center
 
     user "Dean Vance- Dean-" 
-    D "Woah, catch you breath"
+
+    D "Woah, catch your breath"
+
     D "What do you need [user]?"
+
     user "Dean, the satis curae has been stolen and I know who did it!"
+    
 
     #***NOT CYCLIC***
 
@@ -166,7 +170,7 @@ label teacher_end:
             return
 
         "Lavender stole it":
-            
+
             user "Lavender was in the building afterschool last evening and stole the plant, then she left by breaking the window so as not to be seen."
 
             D "Lavender? Why do you think she would do that?"

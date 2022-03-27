@@ -9,7 +9,7 @@ label potion1:
 
     "You're creating to wonder if Milicent has given you cough syrup when the room starts to get dizzy."
 
-    #scene hallway
+    scene hallway
 
     "The school bell rings once signaling to everyone that there’s 30 minutes before the first period. You grab your bag and sling it over your shoulder."
 
@@ -23,13 +23,13 @@ label potion1:
 
     "You quickly turn around retracing your steps."
 
-    #show lavender happy
+    show lavender happy
 
     "There's Lavender."
 
-    #hide lavender happy
+    hide lavender happy
 
-    #show blake angry
+    show blake angry
 
     "There's Blake."
 

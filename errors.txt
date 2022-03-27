@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 360: expecting name after dot.
-    add gui./images/title_1.png
-            ^
+File "game/script2.rpy", line 5: expected end of line
+    stop audio.bell
+              ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Mar 27 00:03:35 2022
+Sun Mar 27 16:04:33 2022

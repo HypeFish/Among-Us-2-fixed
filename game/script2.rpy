@@ -1,6 +1,8 @@
 label hallway:
 
-    scene school hallway
+    play sound audio.bell
+
+    scene school hallway with dissolve
 
     "The school bell rings once signaling to everyone that there’s 30 minutes before the first period."
 
@@ -11,30 +13,35 @@ label hallway:
 
     "You make your way to the classroom passing familiar faces."
 
-    show lavender happy
+    show lavendar happy with dissolve
 
     "You’ve been best friends with Lavender ever since you were in Mr. Clay’s 4th grade class."
 
     "She has seen you at your highest (winning your school’s mystery story contest) and your lowest (that time a transmission spell you cast backfired and you croaked like a frog for the rest of the week)."
 
     L "Hey [user]! Going to visit Milicent?"
+
     user "Yup! She's got this new brown mold that can boost-"
+
     L "ooooh mold sounds amazing!"
+
     user "shut up! It is amazing!"
+
     L "I gotta go return this breaker to the alchemy lab but I’ll catch you later."
 
     "You two do a super secret super sweet handshake"
 
-    hide lavender happy
+    hide lavender happy with dissolve
 
+    scene school hallway with dissolve
 
-    show blake neutral
+    show blake neutral with dissolve
 
     "You pass Blake. You do your best not to be scared, you think she can smell fear."
 
     "Alright you're calm, you're cool. You wave at her."
 
-    show blake angry
+    show blake angry with dissolve
 
     B "*scowels*"
 
@@ -42,15 +49,15 @@ label hallway:
     "On fire week she made a spell so big that it singed the top of the teacher's hair"
     "You’ve been trying to open friendly communications just in case you get paired for any kind of project, but have thus far been unsuccessful."
 
-    hide blake neutral
+    hide blake neutral with dissolve
 
-    show curtis neutral
+    show curtis neutral with dissolve
 
     "You pass Curtis. He looks like he always does."
 
     "Like he really needs to pee, and has been holding it for way too long out of fear of asking a teacher to leave class."
 
-    scene background_botony
+    scene background_botony with dissolve
 
     "Finally you make it to the botany classroom, you open the door and- "
 
@@ -60,13 +67,13 @@ label hallway:
 
     "You turn around to see Milicent."
 
-    show milicent embarrased
+    show milicent embarrassed with dissolve
 
     user "Professor Milicent! What's going on!? The satis curae is gone!"
 
     M "Shh! Shh! I can see that! Please be quieter, I don’t want anyone coming in."
 
-    show milicent neutral
+    show milicent neutral with dissolve
 
     M "Yes the satis curae is gone, I came here in the morning and it wasn’t here."
 
@@ -75,22 +82,22 @@ label hallway:
     menu:
         "Why would someone want to steal a plant?":
             $ x = "plant"
-            show milicent question
+            show milicent question with dissolve
             M "Aside from the plant's beauty?"
             M "It is extremely deadly without proper care from a botanist."
-            show milicent surprise
+            show milicent surprise with dissolve
             M "Whoever took the plant might want to use it to harm someone, however I fear for the person who took the plant."
             M "If they don't know what they are doing it could kill them!"
-            show milicent neutral
+            show milicent neutral with dissolve
 
 
         "When would the plant have been taken?":
             $ x = "taken"
             M "After school, I packed up my things and went home."
             M "Made some tea, graded some papers, and then went to bed."
-            show milicent sad
+            show milicent sad with dissolve
             M "Perhaps I should have taken the plant home with me, I feel so terrible that it’s gone now."
-            show milicent neutral
+            show milicent neutral with dissolve
             M "Gladis at the front desk said bye to me as I left at 7?"
             M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
             "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
@@ -115,9 +122,9 @@ label hallway:
                 $ x = "PT"
                 M "After school, I packed up my things and went home."
                 M "Made some tea, graded some papers, and then went to bed."
-                show milicent sad
+                show milicent sad with dissolve
                 M "Perhaps I should have taken the plant home with me, I feel so terrible that it’s gone now."
-                show milicent neutral
+                show milicent neutral with dissolve
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
                 "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
@@ -138,13 +145,13 @@ label hallway:
         menu:
             "Why would someone want to steal a plant?":
                 $ x = "PT"
-                show milicent question
+                show milicent question with dissolve
                 M "Aside from the plant's beauty?"
                 M "It is extremely deadly without proper care from a botanist."
-                show milicent surprise
+                show milicent surprised with dissolve
                 M "Whoever took the plant might want to use it to harm someone, however I fear for the person who took the plant."
                 M "If they don't know what they are doing it could kill them!"
-                show milicent neutral
+                show milicent neutral with dissolve
 
             "What happens if we don't find who stole it?":
                 $ x = "TU"
@@ -157,22 +164,22 @@ label hallway:
         menu:
             "Why would someone want to steal a plant?":
                 $ x = "PU"
-                show milicent question
+                show milicent question with dissolve
                 M "Aside from the plant's beauty?"
                 M "It is extremely deadly without proper care from a botanist."
-                show milicent surprise
+                show milicent surprise with dissolve
                 M "Whoever took the plant might want to use it to harm someone, however I fear for the person who took the plant."
                 M "If they don't know what they are doing it could kill them!"
-                show milicent neutral
+                show milicent neutral with dissolve
 
 
             "When would the plant have been taken?":
                 $ x = "TU"
                 M "After school, I packed up my things and went home."
                 M "Made some tea, graded some papers, and then went to bed."
-                show milicent sad
+                show milicent sad with dissolve
                 M "Perhaps I should have taken the plant home with me, I feel so terrible that it’s gone now."
-                show milicent neutral
+                show milicent neutral with dissolve
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
                 "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
@@ -195,22 +202,22 @@ label hallway:
         menu:
             "Why would someone want to steal a plant?":
                 $ x = "plant"
-                show milicent question
+                show milicent question with dissolve
                 M "Aside from the plant's beauty?"
                 M "It is extremely deadly without proper care from a botanist."
-                show milicent surprise
+                show milicent surprise with dissolve
                 M "Whoever took the plant might want to use it to harm someone, however I fear for the person who took the plant."
                 M "If they don't know what they are doing it could kill them!"
-                show milicent neutral
+                show milicent neutral with dissolve
 
     if x == "PU":
         menu:
             "When would the plant have been taken?":
                 M "After school, I packed up my things and went home."
                 M "Made some tea, graded some papers, and then went to bed."
-                show milicent sad
+                show milicent sad with dissolve
                 M "Perhaps I should have taken the plant home with me, I feel so terrible that it’s gone now."
-                show milicent neutral
+                show milicent neutral with dissolve
                 M "Gladis at the front desk said bye to me as I left at 7?"
                 M "It was 7, yes. And then when I came into school this morning, it was gone. It would have been taken in between then."
                 "The night guard comes on shift at 10. So thats a 3 hour time window for it to have gone missing."
@@ -223,13 +230,13 @@ label hallway:
 
     M "We don't have much time, after first period starts in 15 minutes all the students will see that the satis curae and the dean will be alerted to it’s disappearance."
 
-    show milicent embarrassed
+    show milicent embarrassed with dissolve
 
     M "[user], I know this is a lot to ask of you, but I know that you love mysteries."
 
     "The Detective Harvy Lawson (Esquire) books weight heavy in your backpack."
 
-    show milicent neutral
+    show milicent neutral with dissolve
 
     M "I need you to find out who stole the plant."
 
@@ -237,13 +244,13 @@ label hallway:
 
     user "Alright, I will figure out who did it."
 
-    show milicent happy
+    show milicent happy with dissolve
 
     M "Here, take this."
 
     "Milicent pushes a small potion bottle into your hands."
 
-    show milicent neutral
+    show milicent neutral with dissolve
 
     M "This potion can rewind time for 30 minutes, but there's only 2 swallows in here. That can buy you a little extra time?"
 
@@ -253,7 +260,7 @@ label hallway:
 
     user "Okay, enough time to search the room"
 
-    hide milicent neutral
+    hide milicent neutral with dissolve
 
     user "Okay, okay time to search the crime scene now!"
 

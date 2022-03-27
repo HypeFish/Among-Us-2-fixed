@@ -7,6 +7,9 @@ define C = Character("Curtis")
 define E = Character("Curtis's Friend")
 define D = Character("Dean")
 
+define audio.bell = "./audio/Taco_Bell_Bong_SFX.wav"
+stop bell
+   
 image blake angry:
     "./images/blake_angry.png"
 
@@ -68,13 +71,13 @@ image milicent neutral:
     "./images/milicent_neutral.png"
 
 image milicent question:
-    "./images/milicent_questions.png"
+    "./images/milicent_question.png"
 
 image milicent sad:
     "./images/milicent_sad.png"
 
-image milicent surprised:
-    "./images/milicent.surprised.png"
+image milicent surprise:
+    "./images/milicent_surprised.png"
 
 image potion empty:
     "./images/potion empty.png"
