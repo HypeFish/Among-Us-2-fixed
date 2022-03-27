@@ -1,5 +1,6 @@
 label curtis_end:
 
+    play music audio.slowspace
 
     "You race down the the halls to Dean Vance’s Office."
 
@@ -163,7 +164,7 @@ label curtis_end:
 
             "If only you could turn back time once again."
 
-            scene bad end with Dissolve(3.0)
+            scene neutral end with Dissolve(3.0)
 
             scene credits with Dissolve(5.0)
 
@@ -206,7 +207,7 @@ label lavender_end:
             show curtis embarrassed with dissolve
 
             C "..."
-            
+
             C "I SWEAR I’ll never forget my reed again to practice, it was just one time and i still practiced the fingerings and look! I found it today so I’m ready-"
 
             D "Curtis"
@@ -251,7 +252,7 @@ label lavender_end:
 
             "If only you could turn back time once again"
 
-            scene bad end with Dissolve(3.0)
+            scene neutral end with Dissolve(3.0)
             
             scene credits with Dissolve(5.0)
 

@@ -200,7 +200,19 @@ image end 9:
 image end 10:
     "./images/end_10.png"
 
+image good credits:
+    "./images/end_11.png"
+
 define audio.general = "./audio/e_woven.m4a"
+
+image spell chat: 
+    "./images/spellchat.png"
+
+image neutral end:
+    "./images/end screen false.png"
+
+image credits:
+    "./images/end screen false 2.png"
 
 label start:
 

@@ -1,5 +1,7 @@
 label teacher_end:
 
+    play music audio.slowspace
+
     "You race down the the halls to Dean Vance’s Office"
 
     scene dean office with dissolve
@@ -84,9 +86,9 @@ label teacher_end:
 
             "If only you could turn back time once again"
 
-            scene bad end with dissolve
+            scene neutral end with Dissolve(3.0)
             
-            scene credits with dissolve
+            scene credits with dissolve(5.0)
 
             return
     
@@ -238,7 +240,7 @@ label teacher_end:
 
             "If only you could turn back time once again."
 
-            scene bad end with Dissolve(3.0)
+            scene neutral end with Dissolve(3.0)
 
             scene credits with Dissolve(5.0)
 

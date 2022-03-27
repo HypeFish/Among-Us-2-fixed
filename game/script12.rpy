@@ -1,5 +1,7 @@
 label blake_end:
 
+    play music audio.slowspace
+
     "You race down the the halls to Dean Vance’s Office"
     
     show dean at center
@@ -88,7 +90,7 @@ label blake_end:
             "If only you could turn back time again"
 
 
-            scene bad end with Dissolve(3.0)
+            scene neutral end with Dissolve(3.0)
             
             scene credits with Dissolve(5.0)
 
@@ -221,9 +223,45 @@ label blake_end:
 
             "If only you could turn back time once again."
 
-            scene bad end with Dissolve(3.0)
+            scene neutral end with Dissolve(3.0)
 
             scene credits with Dissolve(5.0)
 
 
             return
+        
+        "I don’t know! Just not Milicent!":
+            user "The window was broken into, if Milicent wanted to steal the plant why would she have chosen to incriminate herself when she has access to the room."
+            user "As well, why would she need to steal the plant at all! She could have just asked the school to take the plant home if she needed to study it for any reason."
+            D "I see your point."
+            user "Please please don't take any action against Milicent, she’s a great teacher and she feels terrible that the plant was stolen."
+            D "User, thank you for drawing this to my attention."
+            D "And you are right, the school should not need to take any kind of disciplinary action against Milicent."
+            user "Thank you Dean Vance thank you."
+            D "You’ll make quite the detective when you get older you know"
+            D "Now please make you way to first period."
+            hide dean with dissolve
+            scene school hallway with dissolve
+            "There’s a feeling of pride swelling in your chest"
+            "You’ve solved your first case"
+            "The start of a great career in solving mysteries!"
+            "Milicent won't be fired!"
+            "And Blake will be able to heal her sister."
+            "You just hope that she knows what she's doing."
+
+            play music audio.healing
+            
+            scene end_1 with Dissolve(5.0)
+            scene end_2 with Dissolve(5.0)
+            scene end_3 with Dissolve(5.0)
+            scene end_4 with Dissolve(5.0)
+            scene end_5 with Dissolve(5.0)
+            scene end_6 with Dissolve(5.0)
+            scene end_7 with Dissolve(5.0)
+            scene end_8 with Dissolve(5.0)
+            scene end_9 with Dissolve(5.0)
+            scene end_10 with Dissolve(5.0)
+            scene end_11 with Dissolve(5.0)
+
+            scene good credits with Dissolve(5.0)
+
