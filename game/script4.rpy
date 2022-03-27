@@ -124,13 +124,13 @@ label blake_reveal:
                 B "WHATEVER! Point is that aside from Milicent she’s the only other person who would make use of the sat- the plant."
 
 
-    "Narr: Blake turns on her heels and walks out of the room, slamming the door behind her."
+    "Blake turns on her heels and walks out of the room, slamming the door behind her."
 
     "You think about what she said about Lavender. She wouldn’t do this would she?"
 
-    "You remember that the alchemy club meets on tuesdays. She would have been in the building after Milicent left." 
+    "You remember that the alchemy club meets on Tuesdays. She would have been in the building after Milicent left." 
 
-    "You take the necklace out of your pocket. The L shines back at you. You don’t think you’ve ever seen Lavender wear a necklace like that, or has she? No she? She wouldn’t have done this."
+    "You take the necklace out of your pocket. The L shines back at you. You don’t think you’ve ever seen Lavender wear a necklace like that, or has she? No she wouldn’t have done this."
 
     "The bell for first period rings, you’re out of time. You take the potion out of your pocket and down the last swallow."
 
