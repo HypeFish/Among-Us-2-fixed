@@ -169,6 +169,36 @@ label start:
     if not user:
         $ user = "Julia"
 
-    # scene background_botony
+    scene intro 1 with dissolve
+
+    ""
+
+    scene intro 2 with dissolve
+
+    ""
+
+    scene intro 3 with dissolve
+
+    ""
+
+    scene intro 4 with dissolve
+
+    ""
+
+    scene intro 5 with dissolve
+
+    ""
+
+    scene intro 6 with dissolve
+
+    ""
+
+    scene intro 7 with dissolve
+
+    ""
+
+    scene intro 8 with dissolve
+
+    ""
 
     jump hallway
