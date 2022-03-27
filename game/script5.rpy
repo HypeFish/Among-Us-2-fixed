@@ -285,8 +285,40 @@ menu:
                 
                 "Nevermind"
 
+L "Anything else detective?"
+
+"Ouch"
+
+user "I’m sorry Lavender. Please if you can think of anyway to verify that you were home yesterday night, please let me know."
+
+L "Yeah, I will"
+
+#show lavender neutral at left
+
+#show curtis embarrassed at right
+
+"Curtis hurriedly runs past you, clutching something in his left hand. So he really did leave the reed in the botany classroom."
+
+#hide curtis embarrassed
+
+#hide lavender neutral
+
+"You look at Lavender. This is worse than the time you spilled cranberry sauce on her bed…you don’t like seeing Lavender mad like this, especially not at you."
+
+"You look at the clock, 15 minutes, youre running out of time."
+
+"There’s still so much you don’t know, but you only have time to question someone once more"
 
 
+menu:
+    "Ask Milicent about the other students Motive":
+        jump teacher_final
+    "Ask Curtis about yesterday's band practice":
+        jump curtis_final
+    "Try to question Blake again":
+        jump blake_final
+    "Ask Lavender if she can verify her alibi":
+        jump lavender_final    
 
 
 
