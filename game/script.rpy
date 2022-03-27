@@ -70,7 +70,6 @@ image milicent neutral:
 image milicent question:
     "./images/milicent_questions.png"
 
-
 image milicent sad:
     "./images/milicent_sad.png"
 

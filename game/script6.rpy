@@ -30,6 +30,7 @@ label teacher_final:
             M "Out of all the students here she is the most likely to know how to use the plant to its fullest capacities. But, she’s such a good kid."
 
             M "I surely hope that she would not have done this. But yes, I think she has a motive."
+            
         "Do you think Blake could have done it":
             $ x = "blake"
 
