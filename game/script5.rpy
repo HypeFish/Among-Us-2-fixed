@@ -9,6 +9,8 @@ label potion2:
 
     "You walk down the hall towards Lavender's locker. (L also could be locker)"
 
+    hide blake angry with dissolve
+
     show lavender neutral with dissolve
 
     user "Hi Lavender!"
@@ -19,7 +21,7 @@ label potion2:
 
     user "The satis curae has been stolen..."
 
-    show lavender surprise with dissolve
+    show lavender surprised with dissolve
 
     L "The satis curae! That is extremely deadly in the wrong hands it could-"
 
@@ -33,7 +35,7 @@ label potion2:
 
     L "You don't think, you don't think I did this do you?"
 
-    show lavendar angry with dissolve
+    show lavender angry with dissolve
 
     L "I wouldn't do this! [user], you know I wouldn't do this"
 
@@ -297,7 +299,6 @@ label potion2:
 
     show curtis embarrassed at right with dissolve
 
-    show reed at center with dissolve
 
     "Curtis hurriedly runs past you, clutching something in his left hand. So he really did leave the reed in the botany classroom."
 

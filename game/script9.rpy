@@ -7,17 +7,17 @@ label blake_final:
 
     user "Yes, but i'm out of time and i need you to leave the classroom."
 
-    show milicent questioning with dissolve
+    show milicent question with dissolve
 
     M "Why? Wha-"
 
     user "Please just trust me"
 
-    show milicent neutral with disolve
+    show milicent neutral with dissolve
 
     M "I do"
 
-    show milicent away with dissolve
+    hide milicent neutral with dissolve
 
     "As Milicent leaves you take the locket out of your pocket, you aren’t sure what it means or even if it’s involved with this cas-"
 

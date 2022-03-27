@@ -3,8 +3,10 @@ label blake_end:
     play music audio.slowspace
 
     "You race down the the halls to Dean Vance’s Office"
+
+    scene dean_office with dissolve
     
-    show dean at center
+    show dean at center with dissolve
 
     user "Dean Vance- Dean-" 
 
@@ -151,7 +153,7 @@ label blake_end:
 
             scene neutral end with Dissolve(3.0)
 
-            scene credits with dissolve(5.0)
+            scene credits with Dissolve(5.0)
 
             return
 

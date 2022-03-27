@@ -120,10 +120,10 @@ label potion1:
 
         "What did you think about the plant?":
             $ y = "3"
-            hide curtis questioning with dissolve
+            hide curtis question with dissolve
             C "Uh what plant."
             "You gesture with your head to where the satis curae should be"
-            show curtis surprise with dissolve
+            show curtis surprised with dissolve
             C "Oh! You mean the big plant with the     petals and the leaves and the…"
             user "Yeah the one that is usually right there"
             show curtis neutral with dissolve
@@ -146,10 +146,10 @@ label potion1:
 
             "What did you think about the plant?":
                 $ y = "13"
-                hide curtis questioning with dissolve
+                hide curtis question with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                show curtis surprise with dissolve
+                show curtis surprised with dissolve
                 C "Oh! You mean the big plant with the     petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
                 show curtis neutral with dissolve
@@ -179,10 +179,10 @@ label potion1:
 
             "What did you think about the plant?":
                 $ y = "23"
-                hide curtis questioning with dissolve
+                hide curtis question with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                show curtis surprise with dissolve
+                show curtis surprised with dissolve
                 C "Oh! You mean the big plant with the     petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
                 show curtis neutral with dissolve
@@ -237,11 +237,11 @@ label potion1:
     if y == "12":
         menu:
             "What did you think about the plant?":
-                show curtis questioning with dissolve
+                show curtis question with dissolve
                 C "Uh what plant."
                 "You gesture with your head to where the satis curae should be"
-                show curtis surprise with dissolve
-                C "Oh! You mean the big plant with the     petals and the leaves and the…"
+                show curtis surprised with dissolve
+                C "Oh! You mean the big plant with the petals and the leaves and the…"
                 user "Yeah the one that is usually right there"
                 show curtis neutral with dissolve
                 C "Uh can't really say that I think about it, much at all. It’s a plant"

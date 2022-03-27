@@ -4,7 +4,7 @@ label curtis_end:
 
     "You race down the the halls to Dean Vance’s Office."
 
-    scene dean office with dissolve
+    scene dean_office with dissolve
 
     show dean at center with dissolve
 

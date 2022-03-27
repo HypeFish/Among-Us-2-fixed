@@ -50,6 +50,9 @@ image curtis surprised:
 image dean:
     "./images/dean moment.png"
 
+image dean_office:
+    "./images/dean office.png"
+
 image egg:
     "./images/egg.png"
 
@@ -83,7 +86,7 @@ image milicent question:
 image milicent sad:
     "./images/milicent_sad.png"
 
-image milicent surprise:
+image milicent surprised:
     "./images/milicent_surprised.png"
 
 image potion empty:
