@@ -8,7 +8,14 @@ define E = Character("Curtis's Friend")
 define D = Character("Dean")
 
 define audio.bell = "./audio/Taco_Bell_Bong_SFX.wav"
-stop bell
+
+define audio.crime = "./audio/Crime.mp3"
+
+define audio.healing = "./audio/Healing.mp3"
+
+define audio.slowspace = "./audio/Slowspace.mp3"
+
+define audio.woven = "./audio/woven.mp3"
    
 image blake angry:
     "./images/blake_angry.png"
@@ -91,8 +98,30 @@ image potion half full:
     "./images/potion half full.png"
     zoom 0.5
 
+image reed:
+    "./images/reed.png"
+
+image text box1:
+    "./images/text box cropped.png"
+
+image text box2:
+    "./images/text box.png"
+
 image school hallway:
     "./images/school hallway.png"
+
+image hallway full:
+    "./images/hallway full.png"
+
+image hallway half:
+    "./images/hallway half.png"
+
+image hallway none:
+    "./images/hallway none.png"
+
+image dean office:
+    "./images/dean office.png"
+
 
 image time swirl 1:
     "./images/time_swirl_1.png"
@@ -135,9 +164,45 @@ image intro 7:
 image intro 8:
     "./images/intro_8.png"
     
-
 image background_botony:
     "./images/botanyclass(1).png"
+
+image botany full:
+    "./images/botany full.png"
+
+image botany half:
+    "./images/botany half.png"
+
+image end 1:
+    "./images/end_1.png"
+
+image end 2:
+    "./images/end_2.png"
+
+image end 3:
+    "./images/end_3.png"
+
+image end 4:
+    "./images/end_4.png"
+
+image end 5:
+    "./images/end_5.png"
+
+image end 6:
+    "./images/end_6.png"
+
+image end 7:
+    "./images/end_7.png"
+
+image end 8:
+    "./images/end_8.png"
+
+image end 9:
+    "./images/end_9.png"
+
+image end 10:
+    "./images/end_10.png"
+
 
 define audio.general = "./audio/e_woven.m4a"
 
