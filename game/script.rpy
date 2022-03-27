@@ -4,6 +4,7 @@ define M = Character("Milicent")
 define B = Character("Blake")
 define L = Character("Lavender")
 define C = Character("Curtis")
+define E = Character("Curtis's Friend")
 define D = Character("Dean")
 
 image background_botony:
