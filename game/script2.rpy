@@ -11,13 +11,11 @@ label hallway:
 
     "You make your way to the classroom passing familiar faces."
 
-    show lavender neutral
+    show lavender happy
 
     "You’ve been best friends with Lavender ever since you were in Mr. Clay’s 4th grade class."
 
     "She has seen you at your highest (winning your school’s mystery story contest) and your lowest (that time a transmission spell you cast backfired and you croaked like a frog for the rest of the week)."
-
-    show lavender happy
 
     L "Hey [user]! Going to visit Milicent?"
     user "Yup! She's got this new brown mold that can boost-"
